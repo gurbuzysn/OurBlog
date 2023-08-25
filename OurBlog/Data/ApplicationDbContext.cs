@@ -9,5 +9,8 @@ namespace OurBlog.Data
             : base(options)
         {
         }
+
+        public DbSet<Post> Post => Set<Post>();       
+
     }
 }
